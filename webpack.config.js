@@ -10,13 +10,15 @@ module.exports = {
   externals: {
     jquery: 'jQuery',
     underscore: '_',
+    lodash: '_',
     backbone: 'Backbone'
   },
   plugins: [
-    new webpack.optimize.UglifyJsPlugin({
-      //compress: {
-      //  warnings: false
-      //}
-    })
-  ]
+    //new webpack.optimize.UglifyJsPlugin({
+    //  compress: {
+    //    warnings: false
+    //  }
+    //})
+  ],
+  watch: true
 };
