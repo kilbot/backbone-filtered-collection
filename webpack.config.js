@@ -10,6 +10,7 @@ module.exports = {
   externals: {
     jquery: 'jQuery',
     underscore: '_',
+    lodash: '_',
     backbone: 'Backbone'
   },
   plugins: [
